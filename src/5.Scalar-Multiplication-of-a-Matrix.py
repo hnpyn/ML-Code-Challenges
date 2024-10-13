@@ -16,5 +16,5 @@ def scalar_multiply(matrix, scalar):
 
 
 if __name__ == "__main__":
-    a = [[1, 2], [3, 4]]
-    print(scalar_multiply(a, 2))
+    matrix = [[1, 2], [3, 4]]
+    print(scalar_multiply(matrix, 2))
