@@ -20,10 +20,7 @@ def calculate_covariance_matrix(vectors):
     for i in range(num_vecters):
         for j in range(i, num_vecters):
             covariance_matrix[i][j] = sum(
-                [
-                    (vectors[i][k] - means[i]) * (vectors[j][k] - means[j])
-                    for k in range(num_observations)
-                ]
+                [(vectors[i][k] - means[i]) * (vectors[j][k] - means[j]) for k in range(num_observations)]
             ) / (num_observations - 1)
             covariance_matrix[j][i] = covariance_matrix[i][j]
     return covariance_matrix
