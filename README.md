@@ -1,7 +1,7 @@
 # ML-Code-Challenges
 Solutions for [ML Code Challenges](https://www.deep-ml.com)
 
-Thanks for the team, you can contact them:
+Thanks for the Team Deep-ML, you can contact them:
 
 * Email: info@deep-ml.com
 * Discord: [Their Discord](https://discord.com/invite/JwMePfMZAV)
